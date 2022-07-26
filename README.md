@@ -8,7 +8,7 @@
 
 This template repository contains:
 
-- A dotnet 6 solution
+- A .NET 6 Solution
   - Placeholder Class Library
   - Placeholder Unit Test Project (XUnit)
   
@@ -18,4 +18,10 @@ This template repository contains:
   - CI Pipeline
   - CD Pipeline (to Nuget and Github Package Repo)
     - Uses Conventional Commits to Semver Package
+    
+- Standard Documents
+  - Readme
+  - Code of Conduct (Lunduke)
+  - Issue Templates
+  - Contributing
  
