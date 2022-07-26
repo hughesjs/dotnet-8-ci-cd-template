@@ -17,4 +17,5 @@ This template repository contains:
   - Dependabot
   - CI Pipeline
   - CD Pipeline (to Nuget and Github Package Repo)
+    - Uses Convention Commits to Semver Package
  
