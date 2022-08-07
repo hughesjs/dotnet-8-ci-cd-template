@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths: 
-      - src/PlacementHolder/**
+      - src/Placeholder/**
   workflow_dispatch:
 jobs:
 
