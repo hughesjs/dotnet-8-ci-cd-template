@@ -5,6 +5,7 @@ read projectName
 
 echo "There might be some errors listed here these are generally safe to ignore, renaming files and directories..."
 
-find . -iname "*Placeholder*" -exec rename Placeholder $projectName '{}' \;
-find . -iname "*Placeholder*" -exec rename Placeholder $projectName '{}' \;
-grep -rl Placeholder . | xargs sex -i 's/Placeholder/$projectName/g'
+echo $projectName
+find . -iname "*test*" -exec rename test $projectName '{}' \;
+find . -iname "*test*" -exec rename test $projectName '{}' \;
+grep -rl test . | xargs sed -i "s/test/$projectName/g"
