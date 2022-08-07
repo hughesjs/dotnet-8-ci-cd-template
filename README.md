@@ -24,4 +24,5 @@ This template repository contains:
   - Code of Conduct (Lunduke)
   - Issue Templates
   - Contributing
- 
+
+Run `./runme.sh` after cloning to rename directories, project files and root namespace to your desired project name.
