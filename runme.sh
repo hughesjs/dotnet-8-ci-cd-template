@@ -7,8 +7,8 @@ read -r projectName
 
 gitRepoName=$(git ls-remote --get-url | xargs basename -s .git)
 
-grep -r --exclude-dir={.git,src,.github} Placeholder . | xargs sed -i "s/Placeholder/$projectName/g"
-grep -r --exclude-dir={.git,src,.github} Placeholder . | xargs sed -i "s/dotnet-7-ci-cd-template/$gitRepoName/g"
+grep -rl --exclude-dir={.git,src,.github} dotnet-7-ci-cd-template . | xargs sed -i "s/dotnet-7-ci-cd-template/$gitRepoName/g"
+grep -rl --exclude-dir={.git,src,.github} Placeholder . | xargs sed -i "s/Placeholder/$projectName/g"
 
 
 cd src || exit
