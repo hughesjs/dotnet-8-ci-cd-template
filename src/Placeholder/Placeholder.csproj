@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
@@ -10,9 +10,9 @@
         <Title>Placeholder</Title>
         <Authors>hughesjs</Authors>
         <Description>My package description</Description>
-        <PackageProjectUrl>https://github.com/hughesjs/dotnet-7-ci-cd-template</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/hughesjs/dotnet-7-ci-cd-template/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/hughesjs/dotnet-7-ci-cd-template.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/hughesjs/dotnet-8-ci-cd-template</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/hughesjs/dotnet-8-ci-cd-template/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/hughesjs/dotnet-8-ci-cd-template.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageReadmeFile>./README.md</PackageReadmeFile>
     </PropertyGroup>
